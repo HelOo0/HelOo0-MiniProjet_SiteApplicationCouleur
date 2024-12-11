@@ -1,0 +1,157 @@
+
+.chopeur_de_couleur_fixe
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.action_mobile
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    left: 1200px;
+
+    position: fixed;
+}
+
+.zone_action_1
+{
+    width: 100px;
+    height: 100px;
+
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    background: green;
+}
+
+.zone_action_2
+{
+    width: 100px;
+    height: 100px;
+
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    background: blue;
+}
+
+.zone_action_3
+{
+    width: 100px;
+    height: 100px;
+
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    background: red;
+}
+
+.zone_action_4
+{
+    width: 100px;
+    height: 100px;
+    
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    background: yellow;
+}
+
+.zone_action_5
+{
+    width: 100px;
+    height: 100px;
+    
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    background: purple;
+}
+
+.zone_action_6
+{
+    width: 100px;
+    height: 100px;
+    
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    background: orange;
+}
+
+
+.couleur_actuelle
+{
+    margin-top: 20px;
+    text-align: left;
+}
+
+p
+{
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#ZoneDeDemonstration
+{
+    background: linear-gradient(rgb(246, 246, 246), rgb(240, 240, 240));
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+#zone1
+{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#zone2
+{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#zone3
+{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#zone4
+{
+    color: black;
+    background-color: white;
+    font-size: 15px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

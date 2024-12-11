@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang = "fr">
+
+<!-- --------------------------------------------------------| HEAD |---  -->
+    <head>
+        <meta charset = "utf-8">
+        <title> TIME TO DECLARE - choisis ta couleur </title>
+        <link rel = "stylesheet" href = "Project_ColorPicker_index.css" />
+    </head>
+
+<!-- --------------------------------------------------------| BODY |---  -->
+    <body>
+
+<!-- ------------------------------------------------------------------ -->
+<!-- Selection-COULEUR-PARAMETRE-FIXE -->
+
+        <div class = "chopeur_de_couleur_fixe">
+
+            <p> Selectionneur de couleur </p>
+
+            <p> Attention, première valeur FAUSSE, ne pas utiliser la première couleur selectionée, sinon déclenche la sécurité </p>
+            
+            <!-- Selecteur_assiste -->
+            <input type = "color" id = "selecteur_couleur_assiste" value = "#ff0000">
+            <!-- Selecteur_manuelle-->
+            <input type = "text" id = "selecteur_couleur_manuel" value = "#ff0000">
+
+              <div class = "couleur_actuelle">
+
+                 <p>
+                    Selection en HEXADECIMAL -- -- >
+                    <span id = "hex_valeur">
+                        #ff0000
+                    </span>
+                </p>
+                 <p>
+                    Selection en RGB -- -- -- -- -- -- -- -- > 
+                    <span id = "rgb_valeur">
+                        rgb(255, 0, 0)
+                    </span>
+                </p>
+              </div>
+                 
+        </div>
+        
+
+<!-- ------------------------------------------------------------------ -->
+<!-- Selection-COULEUR-PARAMETRE-MOBILE -->
+ 
+        <div class = "action_mobile">
+
+            <p> JEUX, Devine les couleurs :P </p>
+
+            <div class = "zone_action_1"> </div>
+
+            <div class = "zone_action_2"> </div>
+
+            <div class = "zone_action_3"> </div>
+
+            <div class = "zone_action_4"> </div>
+
+            <div class = "zone_action_5"> </div>
+
+            <div class = "zone_action_6"> </div>
+
+            <div>
+                /!\ En cours de construction, (Ne fonctionne pas) /!\
+                <div>
+                    ZONE-1
+                    <input type = "text" id = "selecteur_couleur_jeu_1" value = "rentre sa valeur en hexa...">
+                </div>
+
+                <div>
+                    ZONE-2
+                    <input type = "text" id = "selecteur_couleur_jeu_2" value = "rentre sa valeur en hexa...">
+                </div>
+
+                <div>
+                    ZONE-3
+                    <input type = "text" id = "selecteur_couleur_jeu_1" value = "rentre sa valeur en hexa...">
+                </div>
+
+                <div>
+                    ZONE-4
+                    <input type = "text" id = "selecteur_couleur_jeu_2" value = "rentre sa valeur en hexa...">
+                </div>
+
+                <div>
+                    ZONE-5
+                    <input type = "text" id = "selecteur_couleur_jeu_1" value = "rentre sa valeur en hexa...">
+                </div>
+
+                <div>
+                    ZONE-6
+                    <input type = "text" id = "selecteur_couleur_jeu_2" value = "rentre sa valeur en hexa...">
+                </div>
+
+            </div>
+
+        </div>
+    
+
+
+
+<!-- ------------------------------------------------------------------ -->
+<!-- Selection-ZONE -->
+
+        <div id = "ZoneDeDemonstration">
+            <article id = "zone1">
+                <h2> RANDOM A </h2>
+                <p> 
+
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                </p>
+                <button id = "selecteur_zone1_couleur_texte"> /\ Appliquer la couleur selectionnée aux textes</button>
+                <button id = "selecteur_zone1_couleur_fond"> || Appliquer la couleur selectionnée au fond </button>
+            </article>
+
+            <hr>
+
+            <article id = "zone2">
+                <h2> RANDOM B </h2>
+                <p>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                </p>
+                <button id = "selecteur_zone2_couleur_texte"> /\ Appliquer la couleur selectionnée aux textes </button>
+                <button id = "selecteur_zone2_couleur_fond"> || Appliquer la couleur selectionnée au fond </button>
+            </article>
+
+            <hr>
+
+            <article id = "zone3">
+                <h2> RANDOM C </h2>
+                <p>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                </p>
+                <button id = "selecteur_zone3_couleur_texte"> /\ Appliquer la couleur selectionnée aux textes </button>
+                <button id = "selecteur_zone3_couleur_fond"> || Appliquer la couleur selectionnée au fond </button>
+            </article>
+
+            <hr>
+
+            <article id = "zone4">
+                <h2> RANDOM D </h2>
+                <p>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                    xxxxxxxxxxxxxxxxxxxxxxxxx <br>
+                </p>
+                <button id = "selecteur_zone4_couleur_texte"> /\ Appliquer la couleur selectionnée aux textes </button>
+                <button id = "selecteur_zone4_couleur_fond"> || Appliquer la couleur selectionnée au fond </button>
+            </article>
+
+        </div>
+
+          <script src = "Project_ColorPicker_Script.js"> </script>
+
+    </body>
+
+
+
+<!-- ------------------------------------------------------------------ -->
+<!-- SHIFUMI -->
+
+
+
+</html>
